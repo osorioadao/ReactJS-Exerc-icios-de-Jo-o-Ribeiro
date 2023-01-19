@@ -6,6 +6,7 @@ export default (props) => {
   return(
     <div>
       <p>Pai</p>
+      <componenteFilhoA nome="joao" />
     </div>
   )
 }
