@@ -14,10 +14,13 @@ import ComponenteDez from "./components/ComponenteDez"
 import ComponentePai from "./components/comunicacao_direta/CompoonentePai"
 import ComponenteMãe from "./components/comunicacao_indireta/ComponenteMae"
 import ComponenteA from "./components/comunicacao_indireta_2/ComponenteA"
+import ComponenteAvoA from "./components/comunicacao_direta_2/ComponenteAvoA"
 
 function App(){
     return(
         <>
+            <ComponenteAvoA />
+        
             <ComponenteA titulo="Comunicação Indireta v2"></ComponenteA>
 
             <ComponenteMãe titulo="Comunicação Indireta"></ComponenteMãe>
